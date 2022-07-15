@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react'
 import './header.css'
+import { Link } from 'react-router-dom'
 
 export default function Navbar() {
   const [toggleMenu, setToggleMenu] = useState(false)
@@ -28,21 +29,31 @@ export default function Navbar() {
     <nav>
       {(toggleMenu || screenWidth > 500) && (
       <ul className="list">
-      <li className="items">
-        <button type="button" className='block'>Home</button>
-      </li>
-      <li className="items">
-        <button type="button" className='block'>About</button>
-      </li>
-      <li className="items">
-        <button type="button" className='block'>Resume</button>
-      </li>
-      <li className="items">
-        <button type="button" className='block'>Projects</button>
-      </li>
-      <li className="items">
-        <button type="button" className='block'>Blogs</button>
-      </li>
+        <li className="items">
+          <Link to="/" style={{ textDecoration: 'none' }}>
+            <button type="button" className='block'>Home</button>
+          </Link>
+        </li>
+        <li className="items">
+          <Link to="/about" style={{ textDecoration: 'none' }}>
+            <button type="button" className='block'>About</button>
+          </Link>
+        </li>
+        <li className="items">
+          <Link to="/resume" style={{ textDecoration: 'none' }}>
+            <button type="button" className='block'>Resume</button>
+          </Link>
+        </li>
+        <li className="items">
+          <Link to="/projects" style={{ textDecoration: 'none' }}>
+            <button type="button" className='block'>Projects</button>
+          </Link>
+        </li>
+        <li className="items">
+          <Link to="/blogs" style={{ textDecoration: 'none' }}>
+            <button type="button" className='block'>Blogs</button>
+          </Link>
+        </li>
     </ul>
       )}
     <button onClick={toggleNav} className="btn">Menu</button>

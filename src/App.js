@@ -1,25 +1,27 @@
 import "./App.css";
 import Header from "./Components/Header/header";
-import Background from "./Components/background/background";
-import Columns from "./Components/Colums/front_Page_Colums";
+import React from "react";
+import { BrowserRouter as Router, Switch, Route} from "react-router-dom"
+import Home from "./pages/home.js";
+import About from "./pages/about";
 
 
 function App() {
   return (
     <>
-      <div>
-        <Background />
-        <Header />
-        <h1 className="name">Thomas Lee<br></br>Williams</h1>
-      </div>
-      <div class="container">
+      <Router>
         <div>
-          <h2 className="title">Welcome to my personal website</h2>
+          <Header/>
+          <Switch>
+            <Route path="/" exact>
+              <Home/>
+            </Route>
+            <Route path="/about">
+              <About/>
+            </Route>
+          </Switch>
         </div>
-        <div>
-          <Columns />
-        </div>
-      </div>
+      </Router>
     </>
   );
 }
