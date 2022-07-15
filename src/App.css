@@ -71,6 +71,11 @@
   src: url("./Components/fonts/fonts/Helvetica-Bold.ttf") format("ttf");
 }
 
+@font-face {
+  font-family: Coolvetica;
+  src: url("./Components/fonts/fonts/coolvetica\ rg.ttf") format("ttf");
+}
+
 .title {
   position: relative;
   font-family: "Montserrat", Lato, "Noto Sans", sans-serif;
