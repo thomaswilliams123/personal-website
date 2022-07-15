@@ -1,0 +1,17 @@
+.colum {
+    color: #bec6d1;
+    text-align: start;
+    font-size: large;
+    width: 65%;
+    position: relative;
+    top: 30%;
+    
+}
+
+.table {
+    
+    margin: auto;
+    width: 80%;
+    position: relative;
+    left: 4%;    
+}

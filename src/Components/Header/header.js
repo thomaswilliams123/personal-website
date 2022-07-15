@@ -32,6 +32,9 @@ export default function Navbar() {
         <button type="button" className='block'>Home</button>
       </li>
       <li className="items">
+        <button type="button" className='block'>About</button>
+      </li>
+      <li className="items">
         <button type="button" className='block'>Resume</button>
       </li>
       <li className="items">
