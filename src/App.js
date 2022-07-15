@@ -10,7 +10,7 @@ function App() {
       <div>
         <Background />
         <Header />
-        <h1 className="name">Thomas Lee <br></br>Williams</h1>
+        <h1 className="name">Thomas Lee<br></br>Williams</h1>
       </div>
       <div class="container">
         <div>
