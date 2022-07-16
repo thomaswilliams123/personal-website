@@ -1,0 +1,11 @@
+.name {
+    font-family: "Montserrat", Lato, "Noto Sans", sans-serif;
+    color: #bec6d1;
+    text-align: center;
+    text-shadow: 3px 3px 0 black;
+    font-size: 4em;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    position: static;
+    bottom: 50px;
+  }
