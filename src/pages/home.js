@@ -7,19 +7,15 @@ const Home = () => {
     return (
         <>
             <div>        
-                <div>
+                <div className="night">
                     <Background/>
                 </div>
                 <div>
                     <main>
-                        <div class="container">
-                            <div>
-                                <h1 className="name">Thomas Lee<br></br>Williams</h1>
-                                <h2 className="title">Welcome to my personal website</h2>
-                            </div>
-                            <div>
-                                <Columns />
-                            </div>
+                        <div>
+                            <h1 className="name">Thomas Lee<br></br>Williams</h1>
+                            <h2 className="title">Welcome to my personal website</h2>
+                            <Columns />
                         </div>
                     </main>
                 </div>
