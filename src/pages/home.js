@@ -6,22 +6,17 @@ import "./home.css"
 const Home = () => {
     return (
         <>
-            <div>        
-                <div className="night">
-                    <Background/>
-                </div>
-                <div>
-                    <main>
-                        <div>
-                            <h1 className="name">Thomas Lee<br></br>Williams</h1>
-                            <h2 className="title">Welcome to my personal website</h2>
-                            <Columns />
-                        </div>
-                    </main>
+        <div className="night_home">
+            <Background/>
+        </div>
+            <div className="main_home">
+                <div className="page_home">
+                    <h1 className="name_home">Thomas Lee<br></br>Williams</h1>
+                    <h2 className="title_home">Welcome to my personal website</h2>
+                    <Columns />
                 </div>
             </div>
         </>
-        
     )
 }
 

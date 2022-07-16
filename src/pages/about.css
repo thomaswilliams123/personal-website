@@ -1,23 +1,23 @@
 .name_about {
-    font-family: "Montserrat", Lato, "Noto Sans", sans-serif;
-    color: #bec6d1;
-    text-align: center;
-    text-shadow: 3px 3px 0 black;
-    font-size: 4em;
-    letter-spacing: 0.05em;
-    text-transform: uppercase;
-    position: static;
-    padding-top: 0px;
+  font-family: "Montserrat", Lato, "Noto Sans", sans-serif;
+  color: #bec6d1;
+  text-align: center;
+  text-shadow: 3px 3px 0 black;
+  font-size: 4em;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  position: relative;
+  bottom: 5%;
   }
 
-.main {
+.main_about {
   height: 100vh;
   width: 100vw;
   overflow: auto;
 
 }
 
-.page_describer {
+.page_describer_about {
   font-family: "Montserrat", Lato, "Noto Sans", sans-serif;
   color: #bec6d1;
   text-align: center;
@@ -33,10 +33,10 @@
   left: 570px;
 }
 
-.page {
+.page_about {
   width: 80%;
   margin: 0 auto;
   height: 100%;
   position: static;
-  padding-top: 206px;
+  padding-top: 10.75%;
 }
