@@ -6,17 +6,19 @@
   font-size: 4em;
   letter-spacing: 0.05em;
   text-transform: uppercase;
-  position: relative;
-  bottom: 5%;
+  display: flex;
+  justify-content: center;
+  padding-top: 9%;
 }
 
 .title_home {
-  position: relative;
   font-family: "Montserrat", Lato, "Noto Sans", sans-serif;
   color: #bec6d1;
   font-size: xx-large;
   text-align: center;
-  top: 2.5%;
+  display: flex;
+  justify-content: center;
+  padding-top: 4%;
 }
 
 .main_home {
@@ -26,33 +28,16 @@ overflow: auto;
 
 }
 
-.page_describer_home {
-font-family: "Montserrat", Lato, "Noto Sans", sans-serif;
-color: #bec6d1;
-text-align: center;
-text-shadow: 3px 3px 0 black;
-font-size: 3em;
-letter-spacing: 0.05em;
-border: 8px solid;
-border-color: #0b0d13;
-position: relative;
-margin-top: 50px;
-padding: 10px;
-width: 400px;
-left: 570px;
-}
-
 .page_home {
 width: 80%;
 margin: 0 auto;
 height: 100%;
 position: static;
-padding-top: 10.75%;
+padding-top: 51px;
 }
 
 .night_home {
   transform: rotate(0deg);
   position: relative;
-  top: 0px;
-  right: 50px;
+  top: 140px;
 }

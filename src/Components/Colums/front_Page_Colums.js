@@ -2,8 +2,7 @@ import React from "react";
 import './front_Page_Colums.css'
 
 const Columns = () => 
-  <div style={{ display: "grid", gridTemplateColumns: "repeat(4, 1fr)", gridGap: 50 }}
-  className="table">
+  <div className="table">
     <div className="colum">
     <h1>
             About
@@ -13,7 +12,9 @@ const Columns = () =>
             in college and university, and other interest that I may have. 
             <br>
             </br><br></br>Hoping that
-            this shall help you understand me better.</p>
+            this shall help you understand me better.
+            <br></br>
+        </p>
     </div>
     <div className="colum">
     <h1>
@@ -24,7 +25,8 @@ const Columns = () =>
             job experence, educational experience, qualifications, and skills.
             <br></br>
             <br></br>
-            This will be able to be downloaded by either PDF or Word Docx. 
+            This will be able to be downloaded by either PDF or Word Docx.
+            <br></br>
         </p>
     </div>
     <div className="colum">
@@ -37,6 +39,7 @@ const Columns = () =>
             <br></br>
             <br></br>
             These will include documents and GitHub repositories.
+            <br></br>
         </p>
     </div>
     <div className="colum">
@@ -49,6 +52,7 @@ const Columns = () =>
             <br></br>
             <br></br>
             Here's to the good times.
+            <br></br>
         </p>
     </div>
   </div>
