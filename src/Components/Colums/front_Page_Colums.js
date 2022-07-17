@@ -38,7 +38,7 @@ const Columns = () =>
             new paths and skills within the tech sphere. Here I will list and document them.
             <br></br>
             <br></br>
-            These will include documents and GitHub repositories.
+            These will include GitHub repositories if nessesary.
             <br></br>
         </p>
     </div>
