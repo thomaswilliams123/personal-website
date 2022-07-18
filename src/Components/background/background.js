@@ -7,22 +7,22 @@ function Background () {
         <div class="shooting_star"></div>
         <div class="shooting_star"></div>
         <div class="shooting_star"></div>
+        <div class="shooting_star_red"></div>
+        <div class="shooting_star"></div>
+        <div class="shooting_star_red"></div>
+        <div class="shooting_star"></div>
+        <div class="shooting_star"></div>
+        <div class="shooting_star_red"></div>
         <div class="shooting_star"></div>
         <div class="shooting_star"></div>
         <div class="shooting_star"></div>
         <div class="shooting_star"></div>
+        <div class="shooting_star_red"></div>
         <div class="shooting_star"></div>
         <div class="shooting_star"></div>
+        <div class="shooting_star_red"></div>
         <div class="shooting_star"></div>
-        <div class="shooting_star"></div>
-        <div class="shooting_star"></div>
-        <div class="shooting_star"></div>
-        <div class="shooting_star"></div>
-        <div class="shooting_star"></div>
-        <div class="shooting_star"></div>
-        <div class="shooting_star"></div>
-        <div class="shooting_star"></div>
-        <div class="shooting_star"></div>
+        <div class="shooting_star_red"></div>
         <div class="shooting_star"></div>
     </div>
     )

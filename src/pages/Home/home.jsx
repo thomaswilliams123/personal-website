@@ -1,8 +1,7 @@
 import React from "react";
-import Columns from "../Components/Colums/front_Page_Colums";
-import Background from "../Components/background/background";
+import Columns from "../../Components/Colums/front_Page_Colums";
 import "./home.css"
-import Header from "../Components/Header/header"
+import Header from "../../Components/Header/header"
 
 const Home = () => {
     return (
@@ -11,7 +10,6 @@ const Home = () => {
             <Header/>
                 <div className="page_home">
                     <div className="night_home">
-                        <Background/>
                     </div>
                     <h1 className="name_home">Thomas Lee<br></br>Williams</h1>
                     <h2 className="title_home">Welcome to my personal website</h2>
