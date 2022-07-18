@@ -4,6 +4,7 @@ import Home from "./pages/Home/home";
 import About from "./pages/About/about";
 import Resume from "./pages/Resume/resume";
 import Background from "./Components/background/background";
+import Projects from "./pages/Projects/projects";
 
 
 function App() {
@@ -21,6 +22,9 @@ function App() {
             </Route>
             <Route path="/resume">
               <Resume/>
+            </Route>
+            <Route path="/projects">
+              <Projects/>
             </Route>
           </Switch>
         </div>
