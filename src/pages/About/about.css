@@ -5,10 +5,12 @@
   text-shadow: 3px 3px 0 black;
   font-size: 4em;
   letter-spacing: 0.05em;
-  text-transform: uppercase;
   display: flex;
   justify-content: center;
-  padding-top: 9%;
+  padding-top: 11.4%;
+  margin-top: 2.6%;
+  flex-wrap: wrap;
+
   }
 
 .main_about {
@@ -18,25 +20,39 @@
 
 }
 
-.page_describer_about {
-  font-family: "Montserrat", Lato, "Noto Sans", sans-serif;
-  color: #bec6d1;
-  text-align: center;
-  text-shadow: 3px 3px 0 black;
-  font-size: 3em;
-  letter-spacing: 0.05em;
-  border: 8px solid;
-  border-color: #0b0d13;
-  position: sticky;
-  margin: auto;
-  padding: 10px;
-  width: 400px;
-}
-
 .page_about {
-  width: 80%;
+  width: 65%;
   margin: 0 auto;
   height: 100%;
   position: static;
   padding-top: 51px;
+}
+
+.profile {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  color: #bec6d1;
+  align-content: space-around;
+  height: 350px;
+  flex-wrap: wrap;
+}
+
+.profile-image {
+  flex: 1;
+  position: relative;
+  top: 5px;
+  height: 400px;
+  margin-left: 80px;
+}
+
+.profile-para {
+  width: 200px;
+  color: #bec6d1;
+  text-align: start;
+  font-size: 22px;
+  word-spacing: 2px;
+  flex: 2;
+  position: relative;
+  top: 20px;
 }
