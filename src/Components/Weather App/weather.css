@@ -1,0 +1,94 @@
+.container-about-weather {
+    display: flex;
+    flex-direction: column;
+    align-content: space-evenly;
+    background: rgba(0, 0, 0, 0.781);
+    width: 600px;
+    padding: 25px;
+    margin: auto;
+    height: 500px;
+    border: 1px solid;
+    border-color: black;
+    border-radius: 25px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.input-about-weather {
+    height: 50px;
+    width: 400px;
+    padding: 20px;
+    border-radius: 30px;
+    font-size: large;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.weather-content {
+    height: 100px;
+    align-content: space-between;
+    position: relative;
+    top: 10px;
+    right: 50px;
+
+}
+
+.weather-content-rows {
+    color: white;
+    width: 300px;
+    margin-left: 80px;
+    margin-right: auto;
+    font-size: xx-large;
+    text-transform: capitalize
+}
+
+.weather-content-rows-beginning {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    width: 400px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: x-large;
+}
+
+.weather-content-rows-temp {
+    display: flex;
+    flex-direction: row;
+    padding-top: px;
+    padding-bottom: px;
+    color: white;
+    width: 300px;
+    margin-left: 80px;
+    margin-right: auto;
+    font-size: xx-large;
+    align-items: center;
+}
+
+.weather-content-humidity {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    width: 300px;
+    margin-left: 80px;
+    margin-right: auto;
+    font-size: xx-large;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.weather-content-wind {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    width: 400px;
+    margin-left: 80px;
+    margin-right: auto;
+    font-size: xx-large;
+    align-items: center;
+    margin-top: 30px;
+}
