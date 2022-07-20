@@ -15,7 +15,7 @@ const Weather = () => {
             .then(response => response.json()).then(data => {setWeatherData(data)})
         }
         if (event.key === "Enter") {
-            fetch(`http://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${apiKey}&units=metric`)
+            fetch(`https://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${apiKey}&units=metric`)
             .then(response => response.json()).then(data => {setForcastWeather(data)})
         }
     }
