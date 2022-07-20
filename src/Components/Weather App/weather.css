@@ -26,24 +26,6 @@
     margin-top: 20px;
 }
 
-.weather-content {
-    height: 100px;
-    align-content: space-between;
-    position: relative;
-    top: 10px;
-    right: 50px;
-
-}
-
-.weather-content-rows {
-    color: white;
-    width: 300px;
-    margin-left: 80px;
-    margin-right: auto;
-    font-size: xx-large;
-    text-transform: capitalize
-}
-
 .weather-content-rows-beginning {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -56,39 +38,121 @@
     font-size: x-large;
 }
 
+.weather-all {
+    display: flex;
+    height: 500px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: row;
+}
+
+.weather-now {
+    height: 100px;
+    align-content: space-between;
+    width: 250px;
+    height: 340px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    position: relative;
+    right: 0px;
+    bottom: 10px;
+}
+
+.weather-content-rows-name {
+    color: white;
+    width: 220px;
+    font-size: xx-large;
+    text-transform: capitalize;
+    flex: 1;
+}
+
+.weather-content-rows-description {
+    color: white;
+    width: 240px;
+    font-size: xx-large;
+    text-transform: capitalize;
+    flex: 1;
+}
+
 .weather-content-rows-temp {
     display: flex;
     flex-direction: row;
-    padding-top: px;
-    padding-bottom: px;
     color: white;
     width: 300px;
-    margin-left: 80px;
-    margin-right: auto;
     font-size: xx-large;
     align-items: center;
+    flex: 1;
 }
 
 .weather-content-humidity {
-    display: flex;
-    flex-direction: row;
     color: white;
     width: 300px;
-    margin-left: 80px;
-    margin-right: auto;
     font-size: xx-large;
     align-items: center;
     margin-top: 30px;
+    flex: 1;
 }
 
 .weather-content-wind {
-    display: flex;
-    flex-direction: row;
+    flex: 1;
     color: white;
-    width: 400px;
-    margin-left: 80px;
+    width: 230px;
     margin-right: auto;
     font-size: xx-large;
-    align-items: center;
     margin-top: 30px;
+}
+
+.weather-forcast {
+    display: flex;
+    width: 250px;
+    height: 380px;
+    align-content: center;
+    position: relative;
+    bottom: 0px;
+    left: 20px;
+}
+
+.weather-forcast-days {
+    display: flex;
+    height: 130px;
+    width: 100px;
+    color: white;
+    font-size: xx-large;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid;
+    margin: 10px;
+    text-shadow: 3px 3px 0 black;
+    border-radius: 10px;
+    flex: 1;
+    align-content: space-around;
+}
+
+.weather-forcast-days-image {
+    flex: 1;
+}
+
+.weather-forcast-days-text {
+    flex: 1;
+    text-align: center;
+}
+
+.weather-forcast-bottom {
+    display: flex;
+    width: 250px;
+    height: 380px;
+    align-content: center;
+    position: relative;
+    top: 165px;
+    right: 220px;
+}
+
+.weather-forcast-days-text-no {
+    flex: 1;
+    text-align: center;
+    font-size: 20px;
+    position: relative;
+    bottom: 60px;
 }
