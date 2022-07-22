@@ -14,13 +14,47 @@
     height: 100vh;
     width: 100vw;
     overflow: auto;
-
 }
 
 .page_projects {
-    width: 80%;
+    width: 65%;
     margin: 0 auto;
     height: 100%;
     position: static;
     padding-top: 51px;
+}
+
+.weather-app {
+    display: flex;
+    height: 550px;
+    margin-top: 50px;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    margin-bottom: 20px;
+}
+
+.weather-app-desc {
+    flex: 1;
+    flex-direction: column;
+    height: 450px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+    order: 1;
+    min-width: 300px;
+}
+
+.weather-app-title {
+    flex: 1;
+    font-size: 40px;
+    text-align: center;
+    color: #bec6d1;
+    text-shadow: 3px 3px 0 black;
+    margin-bottom: 40px;
+}
+
+.weather-app-text {
+    font-size: 24px;
+    color: #bec6d1;
 }
