@@ -1,10 +1,12 @@
 .page_resume {
-    width: 80%;
+    width: 900px;
     margin: 0 auto;
     height: 100%;
     position: static;
     padding-top: 51px;
     justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 .name_resume {
@@ -16,13 +18,73 @@
     letter-spacing: 0.05em;
     display: flex;
     justify-content: center;
-    padding-top: 11.4%;
+    padding-top: 19.4%;
 }
     
 .main_resume {
     height: 100vh;
     width: 100vw;
-    overflow: auto;
+    overflow-y: auto;
     
 }
-    
+
+.div_button_resume {
+    margin-top: 70px;
+    height: 100px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.download_resume {
+    height: 45px;
+    width: 300px;
+    border: black;
+    border-radius: 0px;
+    color: #bec6d1;
+    background-color: rgb(24, 23, 23);
+    box-shadow: 3px 3px 0 rgb(17, 17, 17);
+    font-size: medium;
+    border-radius: 10px;
+}
+
+.download_resume:hover {
+    background-color: #d5d4db;
+    color: rgb(0, 0, 0);
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.resume_title {
+    color: #bec6d1;
+    font-size: 32px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.resume_subtitle {
+    color: #bec6d1;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.resume_body_of_text_list {
+    color: #bec6d1;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+}
+
+.list_items_resume {
+    margin-top: 10px;
+}
+
+.dates {
+    float: right;
+}
