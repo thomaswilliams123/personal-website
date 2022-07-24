@@ -1,5 +1,5 @@
 .page_resume {
-    width: 900px;
+    max-width: 950px;
     margin: 0 auto;
     height: 100%;
     position: static;
@@ -7,6 +7,9 @@
     justify-content: center;
     flex-direction: column;
     align-items: flex-start;
+    padding-left: 25px;
+    padding-right: 25px;
+
 }
 
 .name_resume {
@@ -25,7 +28,8 @@
     height: 100vh;
     width: 100vw;
     overflow-y: auto;
-    
+    overflow-x: hidden;
+    position: static;
 }
 
 .div_button_resume {
@@ -39,6 +43,7 @@
     align-items: center;
     margin-bottom: 50px;
 }
+
 
 .download_resume {
     height: 45px;
@@ -59,32 +64,65 @@
     cursor: pointer;
 }
 
+.resume-main-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
 .resume_title {
     color: #bec6d1;
-    font-size: 32px;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    font-size: 35px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
-.resume_subtitle {
+.resume_list_item {
     color: #bec6d1;
     font-size: 20px;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-left: 20px;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
-.resume_body_of_text_list {
+.resume_sub_item {
     color: #bec6d1;
     font-size: 20px;
-    margin-top: 30px;
-    margin-bottom: 30px;
     margin-left: 50px;
-}
-
-.list_items_resume {
+    justify-content: space-between;
     margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .dates {
     float: right;
+    align-self: flex-end;
+}
+
+@media screen and (max-width: 650px){
+    .dates {
+        float: none;
+    }
+
+    .resume_sub_item {
+        color: #bec6d1;
+        font-size: 20px;
+        justify-content: space-between;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .resume_list_item {
+        color: #bec6d1;
+        font-size: 20px;
+        flex-direction: column;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
 }
