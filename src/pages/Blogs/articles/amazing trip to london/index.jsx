@@ -3,11 +3,10 @@ import './index.css'
 import Header from '../../../../Components/Header/header';
 
 const AmazingTripToLondon = () => {
-
     return (
         <>
             <head>
-                <title>Blogs</title>
+                <title>My amazing trip to London - 2019</title>
                 <meta charset="UTF-8"/>
                 <meta name="description" content="Blogs page for Thomas Lee Williams
                 personal website"/>
@@ -28,7 +27,7 @@ const AmazingTripToLondon = () => {
                     </div>
                     <div className="para_trip_london">
                         <p>
-                        I\’ll put this description for me and maybe delete it later hehe. 
+                        I'll put this description for me and maybe delete it later hehe. 
                         So in 2019, I went down to London for 1 day. Really it was more than 
                         12 hours as I was asleep for 8 of them and travelling for 3, but when 
                         I got to the city I saw….a few sights.

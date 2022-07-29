@@ -80,11 +80,12 @@ nav {
   }
 
 
-@media screen and (max-width: 650px){
+@media screen and (max-width: 750px){
 
     nav {
         position: static;
         width: auto;
+        z-index: -1;
     }
     
     .list {
@@ -92,14 +93,15 @@ nav {
         height: auto;
     }
     .items:nth-child(1){
-        border-top: 1px solid rgba(255, 255, 255, 0.555);
+        border-top: 1px solid rgba(255, 255, 255, 1);
         margin-top: 50px;
     }
     .items {
         width: 100%;
-        border-top: 1px solid rgba(255, 255, 255, 0.555);
+        border-top: 1px solid rgba(255, 255, 255, 1);
         text-align: center;
         margin-right: 0px;
+        z-index: 1000;
     }
     .btn {
         display: block;
@@ -109,7 +111,7 @@ nav {
         margin-top: -10px;
         color: white;
         padding-top: 14px;
-        padding-right: 24px;
+        padding-right: 43px;
         font-size: 26px;
         cursor: pointer;
         text-align: center;

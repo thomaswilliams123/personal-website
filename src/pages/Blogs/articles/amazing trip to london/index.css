@@ -96,3 +96,15 @@
   column-gap: 15px;
   margin-bottom: 20px;
 }
+
+@media screen and (max-width: 1080px) {
+  .page_trip_london {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .page_trip_london {
+    width: 80%;
+  }
+}

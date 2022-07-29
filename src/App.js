@@ -9,7 +9,6 @@ import Blogs from "./pages/Blogs/blogs"
 import DayOutSeeingSpiderman from "./pages/Blogs/articles/day out seeing spiderman";
 import AmazingTripToLondon from "./pages/Blogs/articles/amazing trip to london";
 
-
 function App() {
   return (
     <>

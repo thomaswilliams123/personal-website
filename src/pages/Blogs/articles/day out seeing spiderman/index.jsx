@@ -3,17 +3,16 @@ import './index.css'
 import Header from '../../../../Components/Header/header';
 
 const DayOutSeeingSpiderman = () => {
-
     return (
         <>
             <head>
-                <title>Blogs</title>
+                <title>Day out seeing Spiderman - 2021</title>
                 <meta charset="UTF-8"/>
                 <meta name="description" content="Blogs page for Thomas Lee Williams
                 personal website"/>
                 <meta name="keywords" content="HTML, CSS, JavaScript, React"/>
                 <meta name="author" content="Thomas Lee Williams"/>
-                <meta name="viewport" content="width=device-width, initial-scale=1.0"/> 
+                <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
             </head>
             <div className="main_day_out">
                 <Header/>
@@ -51,8 +50,8 @@ const DayOutSeeingSpiderman = () => {
                         Bob. Once we found Bob just beside the bear ride, we went on to get 
                         our lunch from a lovely place called Coro The Chocolate Cafe.
                         </p>
-                        <img src={require('../../../../Assets/map-1.PNG')} className="map_1" alt="edinburgh"/>
                         <br></br>
+                        <iframe title="Coros" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3649.9470341917777!2d-3.2003283486861345!3d55.95170679969571!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4887c796d7ea11f5%3A0xe0380a68c1c6e0fb!2sCoro%20the%20Chocolate%20Cafe!5e0!3m2!1sen!2sus!4v1659133917989!5m2!1sen!2sus" width="100%" height="550" loading="lazy"></iframe>                        <br></br>
                         <br></br>
                         <div className="grid_for_images">
                             <img src={require('../../../../Assets/food-1.jpg')} className="images_in_grid" alt="edinburgh"/>
@@ -90,12 +89,14 @@ const DayOutSeeingSpiderman = () => {
                         him to say goodbye. I would give the movie an 9/10. Would recommend.
                         </p>
                         <br></br>
-                        <br></br>
                         <p>
                         Once the movie was over, we went on to another restaurant called Maki and Ramen in St James 
                         Centre.
                         </p>
-                        <img src={require('../../../../Assets/map-2.PNG')} className="map_1" alt="edinburgh"/>
+                        <br></br>
+                        <iframe title="St James" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4096.6321432763225!2d-3.1890134833629724!3d55.954492372692265!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4887c78e8beabe0f%3A0x274fc4e639541e87!2sSt%20James%20Centre%2C%20Edinburgh%20EH1%203AD%2C%20UK!5e0!3m2!1sen!2sus!4v1659134012309!5m2!1sen!2sus" width="100%" height="550" loading="lazy"></iframe>
+                        <br></br>
+                        <br></br>
                         <div className="grid_for_images">
                             <img src={require('../../../../Assets/food-5.jpg')} className="images_in_grid" alt="edinburgh"/>
                             <img src={require('../../../../Assets/food-6.jpg')} className="images_in_grid" alt="edinburgh"/>

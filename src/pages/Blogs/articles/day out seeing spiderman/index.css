@@ -88,3 +88,16 @@
     column-gap: 15px;
     margin-bottom: 40px;
 }
+
+@media screen and (max-width: 1080px) {
+  .page_day_out {
+    width: 75%;
+  }
+}
+
+
+@media screen and (max-width: 750px) {
+  .page_day_out {
+    width: 85%;
+  }
+}

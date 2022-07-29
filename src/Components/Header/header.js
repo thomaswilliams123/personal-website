@@ -26,7 +26,7 @@ export default function Navbar() {
 
   return (
     <nav>
-      {(toggleMenu || screenWidth > 650) && (
+      {(toggleMenu || screenWidth > 750) && (
       <ul className="list">
         <li className="items">
           <Link to="/" style={{ textDecoration: 'none' }}>
