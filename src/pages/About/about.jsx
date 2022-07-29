@@ -6,6 +6,15 @@ import '../../Assets/profile.jpg'
 const About = () => {
     return (
         <>
+             <head>
+                <title>About</title>
+                <meta charset="UTF-8"/>
+                <meta name="description" content="About page for Thomas Lee Williams
+                personal website"/>
+                <meta name="keywords" content="HTML, CSS, JavaScript, React"/>
+                <meta name="author" content="Thomas Lee Williams"/>
+                <meta name="viewport" content="width=device-width, initial-scale=1.0"/> 
+            </head>
             <div className="main_about">
                 <Header/>
                 <div className="page_about">
@@ -24,8 +33,8 @@ const About = () => {
                         self-host services like websites, game servers running on Pterodactyl for friends, file servers, and 
                         any other tools that make my work and time more valueable.
                         </p>
-                        <img src='https://i.imgur.com/SaD2dHu.jpg' alt="Profile" 
-                        height={300} className="profile-image"/>
+                        <img src='https://i.imgur.com/SaD2dHu.jpg' alt="Profile"
+                        className="profile-image"/>
                     </div>
                 </div>
             </div>

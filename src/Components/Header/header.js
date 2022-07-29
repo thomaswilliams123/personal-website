@@ -6,7 +6,6 @@ export default function Navbar() {
   const [toggleMenu, setToggleMenu] = useState(false)
   const [screenWidth, setScreenWidth] = useState(window.innerWidth)
 
-
   const toggleNav = () => {
     setToggleMenu(!toggleMenu)
   }
