@@ -6,6 +6,14 @@ import Weather from "../../Components/Weather App/weather"
 const Projects = () => {
     return (
         <>
+             <head>
+                <title>Projects</title>
+                <meta charset="UTF-8"/>
+                <meta name="description" content="Projects page for Thomas Lee Williams
+                personal website"/>
+                <meta name="keywords" content="HTML, CSS, JavaScript, React"/>
+                <meta name="author" content="Thomas Lee Williams"/>
+            </head>
             <div className="main_projects">
             <Header/>
                 <div className="page_projects">
@@ -27,7 +35,10 @@ const Projects = () => {
                             <br></br>
                             <br></br>
                             It then displays the current forecast with the next 4 days 
-                            forecast in a easy to see format. 
+                            forecast in a easy to see format. The Weather app will display
+                            information for the current location, current tempreture, a 
+                            description of the weather conditions, the humidity, and the 
+                            current wind speed.
                             </p>
                         </div>
                     </div>

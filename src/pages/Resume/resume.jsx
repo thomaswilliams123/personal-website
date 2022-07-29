@@ -1,10 +1,24 @@
 import {React} from "react"
 import Header from '../../Components/Header/header'
 import './resume.css'
+import detectElementOverflow from 'detect-element-overflow'
+import App from "../../App"
 
 const Resume = () => {
+    
+    const collisions = detectElementOverflow(Resume, App);
+    console.log(collisions)
+    
     return (
         <>
+             <head>
+                <title>Resume</title>
+                <meta charset="UTF-8"/>
+                <meta name="description" content="Resume page for Thomas Lee Williams
+                personal website"/>
+                <meta name="keywords" content="HTML, CSS, JavaScript, React"/>
+                <meta name="author" content="Thomas Lee Williams"/>
+            </head>
             <div className="main_resume">
                 <Header/>
                 <div className="page_resume">

@@ -6,6 +6,14 @@ import Header from "../../Components/Header/header"
 const Home = () => {
     return (
         <>
+            <head>
+                <title>Home</title>
+                <meta charset="UTF-8"/>
+                <meta name="description" content="Home page for Thomas Lee Williams
+                personal website"/>
+                <meta name="keywords" content="HTML, CSS, JavaScript, React"/>
+                <meta name="author" content="Thomas Lee Williams"/>
+            </head>
             <div className="main_home">
             <Header/>
                 <div className="page_home">

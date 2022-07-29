@@ -7,6 +7,15 @@ nav {
     height: 59px;
 }
 
+.nav-scroll {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin: auto;
+    height: 59px;
+}
+
 .list {
     list-style-type: none;
     background: #0b0d13;
@@ -14,14 +23,24 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
     margin: auto;
     width: 100%;
-    
+    gap: 1%;
+}
+
+.list-scroll {
+    list-style-type: none;
+    background: #0b0d13;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    gap: 1%;
 }
 
 .items {
-    margin-right: 20px;
     font-size: 20px;
     text-transform: uppercase;
     color: #f1f1f1;
@@ -81,7 +100,6 @@ nav {
         border-top: 1px solid rgba(255, 255, 255, 0.555);
         text-align: center;
         margin-right: 0px;
-        padding: 20px 0;
     }
     .btn {
         display: block;
@@ -91,7 +109,6 @@ nav {
         margin-top: -10px;
         color: white;
         padding-top: 14px;
-        padding-bottom: 14px;
         padding-right: 24px;
         font-size: 26px;
         cursor: pointer;

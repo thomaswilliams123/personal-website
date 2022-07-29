@@ -29,17 +29,14 @@
   display: flex;
   color: #bec6d1;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   flex-wrap: wrap;
-  align-items: center;
   margin-top: 40px;
   margin-bottom: 40px;
 }
 
 .profile-image {
   flex: 0.8;
-  margin-left: 80px;
-  margin-top: 20px;
   min-height: 400px;
   min-width: 400px;
   max-width: 400px;
@@ -47,7 +44,7 @@
 }
 
 .profile-para {
-  width: 200px;
+  max-width: 768px;
   color: #bec6d1;
   text-align: start;
   font-size: 22px;
