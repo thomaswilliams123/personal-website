@@ -1,6 +1,8 @@
 import React from "react";
 import './index.css'
 import Header from '../../../../Components/Header/header';
+import { HiArrowLeft } from "react-icons/hi";
+import { Link } from "react-router-dom";
 
 const AmazingTripToLondon = () => {
     return (
@@ -17,7 +19,12 @@ const AmazingTripToLondon = () => {
             <div className="main_trip_london">
                 <Header/>
                 <div className="page_trip_london">
-                    <h1 className="name_trip_london">My amazing trip to London</h1>
+                    <div className="title_stuff">
+                        <Link to="/blogs">
+                            <HiArrowLeft className="back_arrow"/>
+                        </Link>
+                        <h1 className="name_trip_london">My amazing trip to London</h1>
+                    </div>
                     <h2 className="date_trip_london"><u>18th October 2019</u></h2>
                     <div className="desc_trip_london">
                         <p className="">

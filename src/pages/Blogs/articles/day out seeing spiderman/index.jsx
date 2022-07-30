@@ -1,6 +1,8 @@
 import React from "react";
 import './index.css'
 import Header from '../../../../Components/Header/header';
+import { HiArrowLeft } from "react-icons/hi";
+import { Link } from "react-router-dom";
 
 const DayOutSeeingSpiderman = () => {
     return (
@@ -17,7 +19,12 @@ const DayOutSeeingSpiderman = () => {
             <div className="main_day_out">
                 <Header/>
                 <div className="page_day_out">
-                    <h1 className="name_day_out">Day out seeing Spiderman</h1>
+                    <div className="title_stuff">
+                        <Link to="/blogs">
+                            <HiArrowLeft className="back_arrow"/>
+                        </Link>
+                        <h1 className="name_trip_london">Day out seeing Spiderman</h1>
+                    </div>
                     <h2 className="date_day_out"><u>18th December 2021</u></h2>
                     <div className="desc_day_out">
                         <p className="">

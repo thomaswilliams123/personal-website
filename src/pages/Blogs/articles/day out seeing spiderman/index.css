@@ -101,3 +101,17 @@
     width: 85%;
   }
 }
+
+.back_arrow {
+  width: 50px;
+  height: 75px;
+  color: #bec6d1;
+  padding-right: 5px;
+}
+
+.title_stuff {
+  display: flex;
+  flex-direction: row;
+  margin-top: 15%;
+  align-items: flex-start;
+}
